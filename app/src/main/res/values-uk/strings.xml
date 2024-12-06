@@ -1,0 +1,20 @@
+<resources>
+        <string name="app_name">Додаток Погоди</string>
+        <string name="enter_location">Будь ласка, введіть всі дані.</string>
+        <string name="location_not_found">Місто не знайдено.</string>
+        <string name="start">Початок:</string>
+        <string name="end">Кінець:</string>
+        <string name="weather_data">Погода за вибраний період:</string>
+        <string name="date">Дата:</string>
+        <string name="avg_temp">Середня температура:</string>
+        <string name="min_temp">Мін. температура:</string>
+        <string name="max_temp">Макс. температура:</string>
+        <string name="choose_start_date">Виберіть початкову дату</string>
+        <string name="choose_end_date">Виберіть кінцеву дату</string>
+        <string name="search">Пошук</string>
+        <string name="enter_city_or_country">Введіть країну або місто</string>
+        <string name="weather_data_placeholder">Дані погоди з\'являться тут</string>
+        <string name="switch_language">Змінити мову</string>
+        <string name="start_date">Вибрати початкову дату</string>
+        <string name="end_date">Вибрати кінцеву дату</string>
+</resources>

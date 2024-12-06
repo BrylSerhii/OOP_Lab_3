@@ -6,36 +6,51 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Language Switch Button -->
+    <Button
+        android:id="@+id/languageSwitchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_language"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
 
+    <!-- Location Input -->
     <EditText
         android:id="@+id/inputLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Введіть країну або місто"
+        android:hint="@string/enter_city_or_country"
         android:inputType="text"
         android:padding="8dp"
         android:background="@drawable/input_background"
         android:layout_marginBottom="16dp"/>
 
+    <!-- Search Button -->
     <Button
         android:id="@+id/searchButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Пошук"
+        android:text="@string/search"
         android:backgroundTint="@color/purple_500"
         android:textColor="@android:color/white"
         android:layout_marginBottom="16dp"/>
+
+    <!-- Start Date Button -->
     <Button
         android:id="@+id/startDateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Вибрати початкову дату" />
+        android:text="@string/start_date" />
 
+    <!-- End Date Button -->
     <Button
         android:id="@+id/endDateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Вибрати кінцеву дату" />
+        android:text="@string/end_date" />
+
+    <!-- Weather Data Display -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -44,7 +59,7 @@
             android:id="@+id/responseTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Дані погоди з'являться тут"
+            android:text="@string/weather_data_placeholder"
             android:textSize="16sp"
             android:padding="8dp"
             android:background="@drawable/response_background"
